@@ -9,13 +9,13 @@ module.exports = {
     remove
 };
 
-function add(userData){
+function add(data){
     return db('httpcats')
-    .insert(userData)
+    .insert(data)
 }
 
 function find() {
-    return db('httpcats').select('id', 'statuscat');
+    return db('httpcats').select('id', 'status_code', 'code_name', 'code_desc', 'imageurl');
 }
 
 function findBy(filter) {
