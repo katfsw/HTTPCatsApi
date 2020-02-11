@@ -1,9 +1,7 @@
 
-Rebuilt the HTTP Cat's Api to be a bit of a cleaner API, and for practice
-
 # HTTPCatsApi
 
-Based off of the [HTTPCat](https://http.cat/) API. I re-built it to make it feel a bit Cleaner. Each "Status Cat" will be provided an ID, a Status_Code, a Code_Name, a Code_Desc and a ImageURL.
+Based off of the [HTTPCat](https://http.cat/) API. I re-built it to make it feel a bit Cleaner. Each "Status Cat" will be provided:
 
 | Key        | Value           |
 | ------------- |:-------------:|
