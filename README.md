@@ -5,12 +5,13 @@ Rebuilt the HTTP Cat's Api to be a bit of a cleaner API, and for practice
 
 Based off of the [HTTPCat](https://http.cat/) API. I re-built it to make it feel a bit Cleaner. Each "Status Cat" will be provided an ID, a Status_Code, a Code_Name, a Code_Desc and a ImageURL.
 
-Key = Value
-ID = ID in current DB (1-58)
-Status_Code = HTTP Status Code
-Code_Name = HTTP Code Name
-Code_Desc = HTTP Code Description
-ImageURL = HTTP Code Status Cat Image
+| Key        | Value           |
+| ------------- |:-------------:|
+| ID | ID in Current DataBase|
+| Status_Code |HTTP Status Code|
+| Code_Name |HTTP Code Name|
+| Code_Desc |HTTP Code Description|
+| ImageURL |HTTP Code Status Cat Image|
 
 ## Getting Started
 
